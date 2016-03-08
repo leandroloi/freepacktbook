@@ -39,3 +39,20 @@ Set additionally the following environment variables:
   export SLACK_CHANNEL=#random
 
 .. image:: https://github-bogdal.s3.amazonaws.com/freepacktbook/slack.png
+
+
+Running on Heroku (optional)
+------------------------
+1. Create a app
+2. Push the code
+3. Add the add on: Heroku Scheduler
+3.1 Config to run $claim_free_ebook
+3.2 Set the time and the Frequency to daily
+4. On "Settings" create and set the config Vars:
+4.1 PACKTPUB_EMAIL =
+4.2 PACKTPUB_PASSWORD = 
+
+5.The End
+
+
+
